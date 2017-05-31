@@ -1,0 +1,497 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #3ACDCE;
+		font-family: 'Source Sans Pro', sans-serif,微軟正黑體;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #444444;
+
+
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+		color: #333333;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #2980b9;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+	
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+	#btn1.button {
+
+
+    position: relative;
+    background-color: #CCEFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0a7079;
+    
+     width: 130px;
+     height: 60px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    float: right;
+    padding:20px;
+    font-family: 微軟正黑體;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+
+
+}
+
+	#current.button{
+	position: relative;
+    background-color: #80d7ff;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 20px ;
+     width: 130px;
+     height: 60px;
+
+    text-align: center;    
+    text-decoration: none;
+    cursor: not-allowed;
+    float: right;
+    padding:20px;
+    font-family: 微軟正黑體;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+
+
+	}
+
+	#current2.button{
+	position: relative;
+    background-color: #80d7ff;
+    border: none;
+    padding: 20px ;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    height: 65px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: not-allowed;
+     font-family: 微軟正黑體;
+     text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+
+
+
+	}
+
+
+	#btn2.button,#btn2.btn {
+
+    position: relative;
+    background-color: #CCEFFF;
+    border: none;
+    padding: 20px ;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0a7079;
+    padding: 20px;
+    width: 300px;
+    height: 65px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+     font-family: 微軟正黑體;
+     text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+
+
+
+
+
+
+}
+	#btn3.button{
+	position: relative;
+    background-color: #c9e7eb;
+    border: none;
+    padding: 20px ;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0a7079;
+    padding: 20px;
+    width: 300px;
+    height: 65px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+     font-family: 微軟正黑體;
+     text-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+
+
+}
+
+	#btn1.button:hover,#btn2.button:hover,#btn2.btn:hover,#btn3.button:hover {
+    background-color: #80d7ff;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    
+
+
+}
+	#btn_top{
+		margin-right: 89px;
+		margin-top: -10px;
+
+
+	}
+	#space.button{
+
+	background-color: #CCEFFF; 
+    border: none;
+    color: black;
+    padding: 19px 309px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    
+
+
+	}
+
+	
+
+	#btn2.button:after,#btn1.button:after,#btn3.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+	#btn2.button:active:after,#btn1.button:active:after,#btn3.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+
+}
+
+	.btn:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    margin-left: 15px;
+
+
+
+  }
+  /* Icon when the collapsible content is hidden */
+  .btn.collapsed:after {
+    content: "\e080";
+
+
+  }
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 0.5em;
+
+	}
+	
+	.title h2
+	{
+		text-transform: lowercase;
+		font-size: 2.8em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: #6F6F6F;
+	}
+		
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		float: left;
+		width: 300px;
+		padding: 0em 0em;
+
+		margin-left: -25px;
+
+		
+	}
+
+
+/*********************************************************************************/
+/* Logo  左選單列圓圓tilte圖                                                                         */
+/*********************************************************************************/
+
+	#logo
+	{
+		text-align: center;
+		margin-bottom: 1em;
+
+	}
+	
+	#logo h1
+	{
+		display: block;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+	
+	#logo span
+	{
+		padding-right: 0.5em;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color: rgba(255,255,255,0.3);
+	}
+
+	#logo span a
+	{
+		color: rgba(255,255,255,0.5);
+	}
+	
+	#logo img
+	{
+		display: inline-block;
+		margin-bottom: 1em;
+		border-radius: 50%;
+
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+
+	}
+	
+	#menu ul
+	{
+	}
+	
+	#menu li
+	{
+		border-top: 1px solid rgba(255,255,255,0.08);
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: block;
+		padding: 1.5em 1.5em;
+		text-align: center;
+		text-decoration:  none;
+		text-transform: uppercase;
+		font-weight: 1000;
+		color: rgba(255,255,255,0.5);
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .current_page_item a,#menu .current_page_item button
+	{
+		background: #80d7ff;
+		color: rgba(0,0,0,1);
+		color: #09646c;
+	}
+	
+	#menu .icon
+	{
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		margin-bottom: 4em;
+	}
+
+/*********************************************************************************/
+/* Page ：左選單列                                                                         */
+/*********************************************************************************/
+
+	#page
+	{
+		background: #CCEFFF;
+		padding-left: 25px;
+		padding-right:0px;
+
+
+	}
+
+/*********************************************************************************/
+/* Main：右主網頁                                                             */
+/*********************************************************************************/
+
+	#main
+	{
+		overflow: hidden;
+		float: right;
+		width: 870px;
+		height: 1000px;		/*右主網頁長度*/
+		padding: 0em 50px 5em 50px;
+		background: #FFF;
+		border-top: 6px solid #2980b9;/*深藍色的線*/
+		margin-left: 0px;
+		text-align: left;
+		
+
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured
+	{
+		overflow: hidden;
+		margin-bottom: 3em;
+		padding-top: 1em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+
+	}
+
+
+
+
+
